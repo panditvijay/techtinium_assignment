@@ -66,7 +66,7 @@ TestCase #5.
 Output:
 Impossible to allocate
 
-*Note: Here 1st and 2nd machine are available but we can allocate 80, 20 remains and we can't allocate.
+*Note: Here 1st and 2nd machine are not available but we can allocate 80, 20 remains and we can't allocate.
 
 TestCase #6.
 -----------------
