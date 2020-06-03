@@ -4,7 +4,7 @@ Algorithm:
 ----------
 Arroach #1 : Find all subset sum(repetition allowed) where sum equal to capacity and find minimum among them.</br>
 
-Time complexity: <b><i>(Capacity^N)*(1/C1)*(1/C2)....*(1/CN)</i></b> which is <b>exponential.<b></br>
+Time complexity: <b><i>(Capacity^N)*(1/C1)*(1/C2)....*(1/CN)</i></b> which is <b>exponential.</b></br>
 
 Approach #2(Optimization): Since overlapping sub-problem, we don't have to calculate same value again and again. we can store once and return next time. <b>Using <i>dp</i><b/> vector to store the states.
  
