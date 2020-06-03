@@ -7,7 +7,7 @@ Inputes are as follows:
 * $1 $2 .... $N. Next line total capacity required and No. of Hours.
 * Capacity Hours
 
-*Note #1: When a particular machine is not available I have taken cost as INT_MAX, "2147483647" since we have to find minimum cost.
+*Note #1: When a particular machine is not available I have taken cost as INT_MAX, "2147483647" since we have to find minimum cost.<br/>
       #2: I am assuming, there always the case "Capacity get exhausted" i.e Capacity at end should be 0. Below test cases follows these           assumptions
 
 TestCase #1 for New York.
