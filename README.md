@@ -1,7 +1,17 @@
 # techtinium_assignment
 
-Inputes are as follows:
+Algorithm:
+----------
+Arroach #1 : Find all subset sum(repetition allowed) where sum equal to capacity and find minimum among them.</br>
+
+Time complexity would be: <b><i>(Capacity^N)*(1/C1)*(1/C2)....*(1/CN)</i></b> which is <b>exponential.</b>
+<nbsp/>
+Approach #2(Optimization): Since overlapping sub-problem, we don't have to calculate same value again and again. we can store once and return next time. <b>Using <i>dp</i><b/> vector to store the states.
  
+Time Complexity: Size of "dp vector" which is <b><i>Capacity*N</i></b>
+
+Inputes are as follows:
+------------------------
 * First line given N, no. of machine available. Next line indivisual capacity(C) of machine.
 * C1 C2 .... CN.  Next line indivisual cost($) of machine.
 * $1 $2 .... $N. Next line total capacity required and No. of Hours.
